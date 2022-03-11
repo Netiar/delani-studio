@@ -13,16 +13,53 @@
     background-image: url(../images/h_img.jpg);
     background-position:center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover; 
+    text-align:center; 
+    color: #fff;
+   
 
 }
 
+.circle
+{
+    width: 90px;
+    height: 90px;    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    color: white;   
+    border: 4px solid #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+    
+.kaido
+{
+    padding-top:40vh;
+    /*line-height:30vh*/
 
+}
 
+.header-w
+{
+    line-height:12vh;
+    padding-top: 3vh;
+}
 
-
-
-
+.header-d
+{
+    position: absolute;
+    top:-8vh;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
