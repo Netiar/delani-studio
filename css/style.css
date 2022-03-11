@@ -63,11 +63,15 @@
 
 .mouse-img
 {
-    padding-top:25vh;
+    padding-top:23vh;
 }
 
-
-
+#about-us
+{
+    text-align: center;
+    padding-top:10vh;
+    height: 50vh;
+}
 
 
 
