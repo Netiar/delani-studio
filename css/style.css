@@ -73,12 +73,36 @@
     height: 50vh;
 }
 
+@media(max-width:530px){
+ #about-us
+ {
+     height: 70vh;
+ }
+ #services
+ {
+     height: 100vh;
+ }
 
+}
 
+#services
+{
+    height: 75vh;    
+    background-image: url(../images/s_image.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;    
+}
 
-
-
-
+.luffy
+{
+    color: #fff;
+    text-align: center;
+    padding-top:23vh;
+    line-height:5vh;
+    font-size: large;
+}
 
 
 
