@@ -71,6 +71,7 @@
     text-align: center;
     padding-top:10vh;
     height: 50vh;
+    width: 100%;
 }
 
 @media(max-width:530px){
@@ -87,7 +88,7 @@
 
 #services
 {
-    height: 75vh;    
+    height: 60vh;    
     background-image: url(../images/s_image.jpg);
     background-position:center;
     background-repeat: no-repeat;
@@ -99,7 +100,7 @@
 {
     color: #fff;
     text-align: center;
-    padding-top:23vh;
+    padding-top:20vh;
     line-height:5vh;
     font-size: large;
 }
@@ -107,7 +108,7 @@
 .work
 {
     
-    height: 50vh;    
+    height: 40vh;    
     text-align: center;   
 
 }
@@ -132,11 +133,12 @@
 {
     
     margin: 5px;
-    width: 30%;
+    width: 32%;
     padding: 30px;    
     line-height: 25px;
     position: relative;
-    margin-top: 0;
+    margin-top: -5vh;
+    text-align: center;
 
     
 }
@@ -145,11 +147,12 @@
 {
     
     margin: 5px;
-    width: 30%;
+    width: 32%;
     padding: 30px;    
     line-height: 25px;
     position: relative;
-    margin-top: 0;
+    margin-top: -5vh;
+    text-align: center;
   
 }
 
@@ -157,19 +160,26 @@
 {
     
     margin: 5px;
-    width: 30%;
+    width: 32%;
     padding: 30px;    
     line-height: 25px;
     position: relative;
-    margin-top: 0;
+    margin-top: -5vh;
+    text-align: center;
 }
 
+.container
+{
+    width : 90%;
+    height: 65vh;
+    background-color: gray;   
+    
+}
 
-
-
-
-
-
+#portfolio
+{
+    text-align: center;
+}
 
 
 
