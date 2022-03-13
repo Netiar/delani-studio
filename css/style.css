@@ -139,6 +139,7 @@
     position: relative;
     margin-top: -5vh;
     text-align: center;
+    flex-wrap: wrap;
 
     
 }
@@ -153,6 +154,7 @@
     position: relative;
     margin-top: -5vh;
     text-align: center;
+    flex-wrap: wrap;
   
 }
 
@@ -166,15 +168,17 @@
     position: relative;
     margin-top: -5vh;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .portfolio
 {
-    width :80% ;
+    width :100% ;
     height: 75vh;
     background-color: gray;
     margin-left: auto; 
-    margin-right: auto;  
+    margin-right: auto;
+    background: cover;  
     
 }
 
@@ -189,6 +193,7 @@
     justify-content: center;
     justify-content: space-evenly;
     margin-top: 2vh;
+    flex-wrap: wrap;
    
 }
 
@@ -198,6 +203,7 @@
     justify-content: center;
     justify-content: space-evenly;
     margin-top: 3vh;
+    flex-wrap: wrap;
    
 }
 
@@ -216,6 +222,7 @@ footer
     justify-content: center;
     padding-top: 10vh ;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
     
 }
@@ -227,8 +234,11 @@ footer
     line-height:1vh
 }
 
-
-
+.contact
+{
+    height: 75vh;
+    background-image: url(../images/c_image.jpg);
+}
 
 
 
