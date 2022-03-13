@@ -201,13 +201,31 @@
    
 }
 
+footer
+{
+  width: 55%;
+  height: 30vh;
+  background-color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.socials
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh ;
+    justify-content: space-evenly;
+    
+    
+}
 
-
-
-
-
-
+.bigmom
+{
+    text-align: center;
+    margin-top: 5vh;
+    line-height:1vh
+}
 
 
 
