@@ -92,7 +92,7 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;    
+    width: 100%;       
 }
 
 .luffy
@@ -104,15 +104,65 @@
     font-size: large;
 }
 
+.work
+{
+    
+    height: 50vh;    
+    text-align: center;   
 
+}
 
+.pinche
+{
+    margin-top: 5vh;
+    text-align: center;
+}
 
+.wrapper
+{
+    display: flex;    
+    padding-top:10vh; 
+    text-align: center;
+    width:auto;
+    justify-content: center;   
+    flex-wrap: wrap;  
+}
 
+.design
+{
+    
+    margin: 5px;
+    width: 30%;
+    padding: 30px;    
+    line-height: 25px;
+    position: relative;
+    margin-top: 0;
 
+    
+}
 
+.development
+{
+    
+    margin: 5px;
+    width: 30%;
+    padding: 30px;    
+    line-height: 25px;
+    position: relative;
+    margin-top: 0;
+  
+}
 
-
-
+.pm
+{
+    
+    margin: 5px;
+    width: 30%;
+    padding: 30px;    
+    line-height: 25px;
+    position: relative;
+    margin-top: 0;
+}
 
 
 
