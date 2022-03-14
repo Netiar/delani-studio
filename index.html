@@ -48,20 +48,23 @@
    <section class="work" id="work">
       <h2 class="pinche">WHAT WE DO</h2> 
 
-       <div class="wrapper">
-         <div class="design">
+       <div class="wrapper" id="">
+         <div class="design" id="design">
          <img src="images/design_icon.png" alt="">
          <h5>DESIGN</h5>
+          <div></div>
          </div>
 
-         <div class="development">
+         <div class="development" id="development">
          <img src="images/dev_icon.png" alt="">
          <h5>DEVELOPMENT</h5>
+         <div></div>
          </div>
 
-         <div class="pm">
+         <div class="pm" id="pm">
          <img src="images/product_icon.png" alt="">
          <h5>PRODUCT MANAGEMENT</h5> 
+         <div></div>
          </div>
 
         </div>
@@ -73,19 +76,59 @@
     <h3 class="portfolio_h3" id="portfolio_h3">PORTFOLIO</h3>
 
     <div class="imgs-top">
-      <div></div>
-      <img src="images/work4.jpg" alt="" height="210" min-width="270" >
-      <img src="images/work3.jpg" alt="" height="210" min-width="270" >
-      <img src="images/work2.jpg" alt="" height="210" min-width="270" >
-      <img src="images/work1.jpg" alt="" height="210" min-width="270" >
+      <div class="box snake">
+       <img src="images/work4.jpg" id="a" height="210px" width="270px" >
+       <div class="overlay">
+        portfolio 1
+       </div>
+
+      </div>
+      <div class="box snake">
+      <img src="images/work3.jpg" id="" height="210" width="270" >
+      <div class="overlay">
+        portfolio 2
+      </div>
+    </div>
+      <div class="box snake">
+      <img src="images/work2.jpg" id="" height="210" width="270" >
+      <div class="overlay">
+        portfolio 3
+      </div>
+    </div>
+      <div class="box snake">
+      <img src="images/work1.jpg" id="" height="210" width="270" >
+      <div class="overlay">
+        portfolio 4
+      </div>
+    </div>
     </div>
 
     <div class="imgs-bottom">     
-      <div></div>
-      <img src="images/work5.jpg" alt="" height="210" min-width="260" >
-      <img src="images/work6.jpg" alt="" height="210" min-width="260" >
-      <img src="images/work7.jpg" alt="" height="210" min-width="260" >
-      <img src="images/work8.jpg" alt="" height="210" min-width="260" >
+      <div class="box snake">
+      <img src="images/work5.jpg" id="" height="210px" width="270px" >
+      <div class="overlay">
+        portfolio 5
+      </div>
+    </div>
+    <div class="box snake">
+      <img src="images/work6.jpg" id="" height="210px" width="270px" >
+      <div class="overlay">
+        portfolio 6
+      </div>
+
+    </div>
+    <div class="box snake">
+      <img src="images/work7.jpg" id="" height="210px" width="270px" >
+      <div class="overlay">
+         portfolio 7
+      </div>
+    </div>
+    <div class="box snake">
+      <img src="images/work8.jpg" id="" height="210px" width="270px" >
+      <div class="overlay">
+        portfolio 8
+      </div>
+    </div>
     </div>
    </section>
 
@@ -94,14 +137,15 @@
     <h3 class="form-header">CONTACT US</h3>
      <form>
       <div class="input-group"> 
-        <input type="text" class="input-field" placeholder="Name..." required>
+        <input type="text" class="input-field" placeholder="Name..." minlength="3" required>
         <input type="email" class="input-field" placeholder="Email..." required>
      </div>
      <div class="input-group2">
-       <textarea id="name" class="input-field" rows="10" placeholder="Your message here..."></textarea>
+       <textarea id="name" class="input-field" rows="10" placeholder="Your message here..." required></textarea>
        <label for="Your message here..."></label>        
     
       </div>
+      <p id="submit"><input class="submit" type="submit" value="submit">=</p>
      </form>
 
 
@@ -127,7 +171,14 @@
        <p>2019</p>
      </div>
    </footer>
-     
+    
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/snake.min.js"></script>
     <script src="js/index.js"></script>
+    
+
+
+
 </body>
 </html>
