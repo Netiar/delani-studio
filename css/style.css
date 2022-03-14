@@ -240,7 +240,157 @@ footer
 {
     min-height: 75vh;
     background-image: url(../images/c_image.jpg);
+    justify-content: center;
+    align-items: center; 
+    color: #fff;      
 }
+
+ form
+{
+    width: 80%;
+    align-items: center;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+   
+
+}
+
+.form-header
+{
+    text-align: center;
+    color: #fff;
+    padding-top:5vh;
+}
+
+.input-group
+{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 5px;
+}
+
+.input-group2
+{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+input,textarea
+{
+    width: 100%;
+    padding: 10px;
+    background:transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size:15px;
+}
+
+.label
+{
+    color: #fff;
+    height: 100%;
+    position : absolute
+}
+
+.input-group>.input-field
+{
+    color: #fff;
+    width: 40%;
+    margin: 40px;
+    
+
+}
+
+.input-group2>.input-field
+{
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    
+}
+
+::-webkit-input-placeholder
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
