@@ -175,12 +175,10 @@
 {
     width :100% ;
     min-height: 75vh;
-    background-color: #fff
-    
-    ;
+    background-color: #fff;
     margin-left: auto; 
-    margin-right: auto;
-    background: cover;  
+    margin-right: auto;     
+    background:cover;
     
 }
 
@@ -196,6 +194,7 @@
     justify-content: space-evenly;
     margin-top: 2vh;
     flex-wrap: wrap;
+    overflow: hidden;        
    
 }
 
@@ -203,10 +202,11 @@
 {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    margin-top: 3vh;
+    justify-content: space-evenly;   
     flex-wrap: wrap;
-   
+    margin-top: 3vh;
+    overflow: hidden;
+      
 }
 
 footer
@@ -253,6 +253,7 @@ footer
     margin-left: auto;
     margin-right: auto;
     color: #fff;
+    overflow: hidden;
    
 
 }
@@ -262,6 +263,7 @@ footer
     text-align: center;
     color: #fff;
     padding-top:5vh;
+    overflow: hidden;
 }
 
 .input-group
@@ -270,6 +272,7 @@ footer
     align-items: center;
     color: #fff;
     margin: 5px;
+    overflow: hidden;
 }
 
 .input-group2
@@ -278,6 +281,7 @@ footer
     align-items: center;
     color: #fff;
     position: relative;
+    overflow: hidden;
 }
 
 input,textarea
@@ -288,6 +292,8 @@ input,textarea
     color: #fff;
     border: 1px solid #fff;
     font-size:15px;
+    overflow: hidden;
+
 }
 
 .label
@@ -301,7 +307,11 @@ input,textarea
 {
     color: #fff;
     width: 40%;
-    margin: 40px;
+    margin: 35px;
+    display:relative;
+    justify-content: center;
+    align-items: center;
+    
     
 
 }
@@ -310,7 +320,9 @@ input,textarea
 {
     width: 80%;
     margin-left: 10%;
+    display:relative;
     color: #fff;
+    overflow: hidden;
     
 }
 
@@ -319,16 +331,39 @@ input,textarea
     color: #fff;
 }
 
+.submit
+{
+    width: 15%;
+    border-radius: 15px;
+    margin-left: 40%;
+    transform: translate -40% right;
+    
+}
 
+.box
+{
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+}
 
+.box img
+{
+    max-width: 100%;
+    display: block;
+}
 
-
-
-
-
-
-
-
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
