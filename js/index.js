@@ -15,11 +15,12 @@ $(document).ready(function(){
        speed:250
     })
 
-    $("")
+    function toggle(){
+    $("#design, #design 2").toggle();
 
 
-
-
+    }
+    
 });
 
 
